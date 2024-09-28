@@ -12,7 +12,7 @@ function App() {
        <Routes>
         <Route path="/Signup" element={<Openform/>}></Route>
         <Route path="/Login" element={<Openregister/>}></Route>
-        <Route path="/Header" element={<Header/>}></Route>
+        <Route path="/" element={<Header/>}></Route>
         <Route path="/Movies" element={<MainHeader/>}></Route>
        </Routes>
     </BrowserRouter>
